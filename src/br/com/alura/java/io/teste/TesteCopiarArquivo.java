@@ -31,7 +31,6 @@ public class TesteCopiarArquivo {
 			bw.newLine();
 			leitura = br.readLine();
 		}
-		
 		br.close();
 		bw.close();
 		
