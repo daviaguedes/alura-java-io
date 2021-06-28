@@ -16,8 +16,7 @@ public class TesteFileWriter {
 //		Writer osw = new OutputStreamWriter(fos);
 //		BufferedWriter bw = new BufferedWriter(osw);
 		
-		FileWriter fw = new FileWriter("outroTesteDeEscrita.txt");
-		BufferedWriter bw = new BufferedWriter(fw);
+		BufferedWriter bw = new BufferedWriter(new FileWriter("outroTesteDeEscrita.txt"));
 		bw.write("hduiadhgasuidasd");
 		bw.newLine();
 		bw.write("Outro teste de escrita");
