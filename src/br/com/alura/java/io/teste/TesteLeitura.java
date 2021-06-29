@@ -11,7 +11,7 @@ public class TesteLeitura {
 
 	public static void main(String[] args) throws IOException {
 		
-		InputStream fis = System.in;//new FileInputStream("lorem.txt");
+		InputStream fis = new FileInputStream("lorem.txt");
 		Reader isr = new InputStreamReader(fis);
 		BufferedReader br = new BufferedReader(isr);
 		
