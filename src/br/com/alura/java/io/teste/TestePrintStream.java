@@ -20,6 +20,8 @@ public class TestePrintStream {
 		ps.println();
 		ps.println("Teste PrintStream");
 		
+		ps.close();
+		
 //		bw.write("hduiadhgasuidasd");
 //		bw.newLine();
 //		bw.write("Outro teste de escrita");
