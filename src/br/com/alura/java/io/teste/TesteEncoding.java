@@ -11,13 +11,12 @@ public class TesteEncoding {
 		
 		String s = "ç";
 		System.out.println(s.codePointAt(0));
-		
+		 
 		Charset charset = Charset.defaultCharset();
 		System.out.println(charset.displayName());
 		
 		byte[] bytes = s.getBytes("windows-1252");
 		System.out.print(bytes.length + " " + " windows-1252 ");
-		
 		String novoS = new String(bytes, "windows-1252");
 		System.out.println(novoS);
 		
